@@ -1,0 +1,42 @@
+Instruction for the current project.
+
+Full name: 
+  TheCodeMaster Early Vulnerability Detector Plug-in.
+Acronym: 
+  TCM_ESVD
+
+Special Comments:
+  All names should be in the singular form.
+  All names should start with the thing it is then the identifier. e.g. ID_PLUGIN.
+  All variables should be private and their get/sets private as well until some method really needs it.
+  
+Packages' Names:
+  01 - net.thecodemaster.esvd
+  02 - net.thecodemaster.esvd.ui
+  03 - net.thecodemaster.esvd.helper
+  04 - net.thecodemaster.esvd.l10n
+  05 - net.thecodemaster.esvd...
+
+Eclipse Ids:
+  Should all be capitalized.
+  TCM_ESVD_AAA....
+
+Comment:
+@Author: Luciano Sampaio
+@Date: 2014-05-07
+@Version: 01
+
+Order of variables:
+  private
+  protected
+  public
+
+Order of methods:
+  abstract
+  get/set
+  imported methods - static methods from other classes. 
+  private
+  protected
+  public
+  
+The scope of all the variables should always be the smallest it can be.

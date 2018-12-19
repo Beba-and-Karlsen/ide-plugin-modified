@@ -1,0 +1,12 @@
+ExitPoints
+	[01] - 
+	Method 	  : getConnection
+	Package	  : java.sql.DriverManager
+
+	Arguments:
+		<java.lang.String, url> 	 : null; 
+		<java.lang.String, user> 	 : StringLiteral;InfixExpression;
+		<java.lang.String, password> : StringLiteral;InfixExpression;
+
+EntryPoints
+	isClean : True|False
